@@ -14,7 +14,7 @@ General comparison is presented in following table.
 
 The "Time for GS" column measures time required for hyperparameter tuning (with use of RandomizedSearchCV from sklearn.model_selection). 
 
-The graph below presents relation between accuracy and grid-search time between models. Te latter was normalized to enable clear comparison.
+The graph below presents relation between accuracy and grid-search time between models. The latter was normalized to enable clear comparison.
 
 <img width="2252" height="1189" alt="normalized_time_vs_acc" src="https://github.com/user-attachments/assets/fbf0cb01-006a-4259-bf8a-549cd873f5b9" />
 
