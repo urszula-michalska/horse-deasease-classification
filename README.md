@@ -1,5 +1,12 @@
 ## Overview
-In this project, five tree-based classifiers were implemented to compare their performance on a horse disease dataset.
+This project focuses on the application and comparison of tree-based machine learning models for a classification task. The goal was to evaluate how different models perform in terms of predictive accuracy and computational efficiency.
+
+## Models used
+* k-Nearest Neighbors
+* Decision Tree
+* Random Forest
+* LightGBM
+* CatBoost
 
 ## Conlusions 
 General comparison is presented in following table.
@@ -13,6 +20,8 @@ General comparison is presented in following table.
 | CatBoost        | 0.7889   | 0.78     | 120.1858    | 6.8044               |
 
 The "Time for GS" column measures time required for hyperparameter tuning (with use of RandomizedSearchCV from sklearn.model_selection). 
+
+The results highlight differences in model performance, showing that ensemble methods significantly outperform a single Decision Tree in terms of accuracy and robustness. Additionally, the project explores trade-offs between model complexity, training time, and predictive performance.
 
 The graph below presents relation between accuracy and grid-search time between models. The latter was normalized to enable clear comparison.
 
