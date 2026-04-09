@@ -1,6 +1,14 @@
 ## Overview
 This project focuses on the application and comparison of tree-based machine learning models for a classification task. The goal was to evaluate how different models perform in terms of predictive accuracy and computational efficiency.
 
+## Preprocessing steps
+* Handled missing data using kNN Imputer  
+* Encoded binary and categorical variables  
+* Performed correlation analysis to identify feature relationships  
+* Analyzed distributions of selected features  
+* Applied PCA for dimensionality reduction and cluster analysis  
+* Addressed class imbalance using SMOTE oversampling
+
 ## Models used
 * k-Nearest Neighbors
 * Decision Tree
